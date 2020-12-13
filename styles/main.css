@@ -29,7 +29,7 @@
 }
 .logo{
 	float: left;
-	margin: 20px 0 0 90px;
+	margin: 20px 0 0 100px;
 }
 .navbar{
 	float: right;
@@ -41,8 +41,33 @@ header: after {
 	clear: both;
 }
 header{
-	background-color: yellow;
+	background-color: white;
 	height: 110px;
 	width: 100%;
 	position: fixed;
+}
+.pcbox{
+	height: 850px;
+	width: 100%;
+	background-color: #E6E6E6;
+	padding: 140px 5% 30px 5%;
+}
+.pc{
+	height: 100%;
+	width: 100%;
+}
+.bluebox{
+	height: 710px;
+	width: 100%;
+	background-color: #363E97;
+	padding: 100px 5% 100px 5%;
+}
+.firstitem{
+	height: 100%;
+	width: 49%;
+	background-color: white;
+	display: inline-block;
+} 
+.firstitem:last-child{
+	float: right;
 }
