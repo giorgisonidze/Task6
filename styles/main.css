@@ -97,10 +97,10 @@ header{
 	margin: 7% 0 0 7%;
 }
 .box4{
-	height: 500px;
+	height: 420px;
 	width: 100%;
 	background-color: #E6E6E6;
-	padding: 0 5% 12% 5%;
+	padding: 0 5% 9% 5%;
 }
 .fingerbox{
 	height: 100%;
@@ -133,4 +133,38 @@ header{
 .box4title{
 	height: 120px;
 	width: 100%;
+	font-size: 24px;
+	padding: 2.5% 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+}
+.box4title h2{
+	display: inline-block;
+	font-weight: bold;
+}
+.line2{
+	height: 25px;
+	width: 2px;
+	display: inline-block;
+	background-color: black;
+	margin: 0 10px 0 10px;
+	vertical-align: middle;
+}
+.box4title p{
+	display: inline-block;
+	font-weight: bold;
+}
+.lastbox{
+	height: 100px;
+	width: 100%;
+	padding: 20px 5% 20px 5%;
+}
+.lastbox p{
+	padding: 1% 0 0 0;
+}
+.bottomtext1{
+	float: left;
+}
+.bottomtext2{
+	float: right;
 }
